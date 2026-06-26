@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Virtual Envs
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Project Specific Data (Never commit raw or modified dataset files)
+data/raw/*.csv
+data/processed/*.csv
+
+# Project Specific Outputs (Keep your repository history lightweight)
+outputs/figures/*.png
+outputs/reports/*.txt
+outputs/models/*.joblib
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
